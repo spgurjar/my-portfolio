@@ -27,7 +27,9 @@ export const Resume = () => {
             <div className="rsmBox-content">
              <RsmBox duration="2021 - present" role="Bachelor of Technology" at="IIT Roorkee" />   
             </div> 
-            
+            <a href="https://drive.google.com/file/d/1qe-p_KcliLglAx4rLIOwg2ydVCyoo7fn/view?usp=sharing" target="blank">
+                    <button className="rs-view">View Resume</button>
+                </a>
         </div>
     )
 }
