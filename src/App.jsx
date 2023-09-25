@@ -42,9 +42,9 @@ function App() {
       <div className="main-content">
         <div className='cls-tophome'><TopHome /> </div>
         <div className='cls-'><Journey/></div>
+        <div className='cls-'><Project/></div>
         <div className='cls-'><Resume/></div>
         <div className='cls-'><Skills/></div>
-        <div className='cls-'><Project/></div>
         <div className='cls-'><Contact/></div>
       </div>
       <div><SideBar /></div>
