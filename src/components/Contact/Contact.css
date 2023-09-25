@@ -1,0 +1,112 @@
+.contact-body{
+    display: flex;
+    flex-direction: column;
+    margin-left: 1rem;
+    padding-top: 4rem;
+}
+
+.cnct-heading{
+    margin: 4rem 0 0 1rem;
+    padding-left: 0px;
+    text-align: start; 
+}
+
+.input-contact{
+    padding-bottom: 2rem;
+    font-family: 'Poppins', sans-serif;
+    display: flex;
+    flex-direction: row;
+    margin-top: 3rem;
+    margin-left: 5rem;
+    justify-content: space-between;
+    color: aliceblue;
+    border-bottom: 0.5px solid rgb(150, 154, 157);
+    width: 40rem;
+    font-family: 'Signika Negative', sans-serif;
+}
+
+.spanx{
+    color: red;
+}
+.inpt{
+    color: rgb(117, 113, 113);
+    margin-top: 10px;
+    font-size: 18px;
+    background:transparent;
+    font-family: 'Signika Negative', sans-serif;
+}
+.ul-input{
+    text-align: start;
+    margin-top: 2rem;
+    padding: 0;
+}
+.submit{
+   margin-top: 3rem;
+}
+.Send{
+
+    color: rgb(0, 0, 0);
+    background-color:rgba(30, 248, 139, 0.933) ;
+    margin-bottom: 80px;
+    margin-top: -50px;
+    padding: 10px;
+    border-radius: 50px;
+    border:2px solid rgba(30, 248, 139, 0.933);
+    cursor: pointer;
+    font-family: 'Signika Negative', sans-serif;
+
+}
+.Send:hover{
+    font-size: 13.5px;
+    box-shadow: 0px 4px 15px 0px rgb(117, 113, 113);
+}
+.emoji{
+    font-size: 10px;
+}
+@media screen and (max-width: 700px) {
+    .contact-body{
+        position: relative;
+        align-items: center;
+        margin-left: 0;
+        padding-top: 2rem;
+      }
+    .input-contact{
+        margin-left: 0;
+        flex-direction: column;
+        width: 10rem;
+    }
+    .Send{
+        margin-bottom: 40px;
+        font-size: 18px;
+        margin-top: 5px;
+    }
+    
+    .emoji{
+        font-size: 15px;
+    }
+    .fn{
+        font-size: 20px;
+    }
+}
+@media screen and (min-width: 701px) and (max-width: 1024px){
+    .contact-body{
+        position: relative;
+        align-items: center;
+        margin-left: 0;
+        padding-top: 2rem;
+      }
+    .input-contact{
+        margin-left: 0;
+    }
+    .Send{
+        margin-bottom: 40px;
+        font-size: 20px;
+        margin-top: 5px;
+    }
+    .emoji{
+        font-size: 18px;
+    }
+    .fn{
+        font-size: 20px;
+    } 
+}

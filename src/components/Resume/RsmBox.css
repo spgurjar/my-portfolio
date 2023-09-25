@@ -1,0 +1,83 @@
+.box-body{
+    
+    padding: 1.5rem 3.5rem 0px;
+    display: flex;
+    flex-direction: column;
+    text-align: start;
+    margin-left: 3rem;
+    border-left: 1px solid hsl(60, 1%, 63%) ;
+    border-radius: 20px;
+}
+
+     
+  
+.box-body:hover{
+    border-left: 2px solid #28e98c  
+}
+.duration{
+    color: hsl(60, 1%, 63%);
+    font-size: 18px;
+    font-family: 'Signika Negative', sans-serif;
+}
+.duration:hover{
+        color: #28e98c;
+}
+
+.role{
+    color: white;
+    font-size: 35px;
+    margin-top: 15px;
+    font-family: 'Signika Negative', sans-serif;
+}
+.at{
+    color: hsl(60, 1%, 63%);
+    font-size: 15px;
+    margin-top: 8px;
+    font-family: 'Signika Negative', sans-serif;
+}
+@media screen and (max-width: 700px) {
+    .box-body{
+      position: relative;
+      align-items: center;
+      margin-left: 0;
+      padding: 0;
+      width: 19rem;
+      border-left: none ;
+      border-bottom: 1px solid hsl(60, 1%, 63%) ;
+      border-top: 1px solid hsl(60, 1%, 63%) ;
+      border-radius: 20px;
+    }
+    .duration{
+        margin-top: 15px;
+        font-size: 17px;
+    }
+    .role{
+        font-size: 25px;
+    }
+    
+  }
+  @media screen and (min-width: 701px) and (max-width: 1024px){
+    .box-body{
+        position: relative;
+        align-items: center;
+        margin-left: 0;
+        padding: 0;
+        width: 25rem;
+        border-left: none ;
+        border-bottom: 1px solid hsl(60, 1%, 63%) ;
+        border-top: 1px solid hsl(60, 1%, 63%) ;
+        border-radius: 20px;
+        padding: 1rem;
+      }
+      .duration{
+          margin-top: 15px;
+          font-size: 25px;
+      }
+      .role{
+          font-size: 37px;
+      }
+      .at{
+        font-size: 20px;
+        margin-top: 1rem;
+      }
+}

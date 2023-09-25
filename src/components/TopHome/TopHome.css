@@ -1,0 +1,111 @@
+/* @import "./components/TagCss/topTag.css"; */
+
+.tophome-body{
+    
+    display: flex;
+    /* align-items: start; */
+    flex-direction: column; 
+    margin-top: 2rem;
+    margin-left: 1rem;
+    margin-bottom: 6rem;
+    color: white;
+    position: relative;
+    /* width: 100%; */
+    padding-top: 6rem;
+}
+
+.head-text1{
+    font-size: 70px;
+    color: white;
+    font-family: 'Croissant One', cursive;
+ }
+
+ .head-text2{
+    color: #28e98c;
+    font-family: 'Croissant One', cursive;
+ }
+
+.intro-text{
+    margin: 4rem 0 0 1rem;
+    padding-left: 0px;
+    text-align: start;
+    .name{
+        color: #28e98c;
+        font-size: 70px;
+    }
+    .text1{
+        font-size: 70px;
+        margin: 0px;
+        padding: 0px; 
+    }
+    .text2{
+        font-size: 70px;
+        margin: 0px;
+        padding-left: 0px; 
+    }
+}
+
+.my-aim{
+    /* display: flex; */
+    /* align-items: start; */
+    .aim-text{
+        text-align: start;
+        color: hsl(60, 1%, 63%);
+        margin-top: 3rem;
+        margin-left: 1.1rem;
+        /* padding-left: 253px; */
+        font-size: 16px;
+        font-family: 'Croissant One', cursive;
+    }
+}
+
+
+@media screen and (max-width: 700px) {
+    .tophome-body{
+        position: relative;
+        align-items: center;
+        margin-left: 0;
+        padding-top: 2rem;
+    }
+    .intro-text{
+        margin-left: 0;
+        margin-top: 3rem;
+        text-align: center;
+        width: 25rem 
+    }
+    .head-text1{
+        font-size: 30px;
+        ;
+    }
+   .my-aim{
+    width: 20rem;
+    .aim-text{
+        text-align: center;
+        font-size: 18px;
+        margin-left: 0;
+    }
+   }
+    
+  }
+  @media screen and (min-width: 701px) and (max-width: 1024px){
+    .tophome-body{
+        position: relative;
+        align-items: center;
+        margin-left: 0;
+        padding-top: 2rem;
+    }
+    .intro-text{
+        margin-left: 0;
+        margin-top: 3rem;
+        text-align: center;
+    }
+   .my-aim{
+    .aim-text{
+        text-align: center;
+        font-size: 30px;
+        margin-left: 0;
+    }
+   }
+    
+  }
+  
