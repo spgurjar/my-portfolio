@@ -38,7 +38,7 @@ body {
 
 }
 
-@media screen and (min-width: 701px) and (max-width: 1024px) {
+@media screen and (min-width: 701px) and (max-width: 1324px) {
   .App-home-page {
     display: flex;
     flex-direction: column;
@@ -52,7 +52,7 @@ body {
   }
 }
 
-@media screen and (min-width: 1025px) {
+@media screen and (min-width: 1324px) {
   .App-home-page {
     grid-template-areas: "sidebar main toc";
     grid-template-columns: minmax(0, 1.2fr) minmax(0, 2.5fr) minmax(0, 13rem);
@@ -81,7 +81,7 @@ body {
 
 }
 
-@media screen and (min-width: 701px) and (max-width: 1024px) {
+@media screen and (min-width: 701px) and (max-width: 1324px) {
   .res-sidebar {
     display: flex;
     flex-direction: column;

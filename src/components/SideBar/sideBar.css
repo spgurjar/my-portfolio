@@ -30,7 +30,7 @@
     margin-bottom: 15px;
    }
 }
-@media  screen and (min-width: 701px) and (max-width: 1024px){
+@media  screen and (min-width: 701px) and (max-width: 1324px){
     .side-bar-items{
      display: flex;
      flex-direction: row;

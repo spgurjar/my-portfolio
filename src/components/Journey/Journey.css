@@ -53,7 +53,7 @@
     } 
     
   }
-  @media screen and (min-width: 701px) and (max-width: 1024px){
+  @media screen and (min-width: 701px) and (max-width: 1324px){
     .jrny-body{
       position: relative;
       align-items: center;

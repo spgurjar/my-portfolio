@@ -13,7 +13,7 @@
     }
     
 }
-  @media screen and (min-width: 701px) and (max-width: 1024px){
+  @media screen and (min-width: 701px) and (max-width: 1324px){
     .project-body{
       position: relative;
       align-items: center;
@@ -117,7 +117,7 @@
         margin-left: 7rem;
     }    
 }
-  @media screen and (min-width: 701px) and (max-width: 1024px){
+  @media screen and (min-width: 701px) and (max-width: 1324px){
     .pj-img{
         width: 23rem;
         height: 12rem;
@@ -136,4 +136,21 @@
         font-size: 1.3rem;
         margin-top: 2rem;
     }      
+}
+@media screen and (min-width: 1325px) and (max-width: 1486px){
+    .pj-name{
+        margin-top: 3rem;
+        font-size: 1.5rem;
+    }
+    .pj-dependencies{
+        font-size: 1rem;
+    }
+    .pj-view{
+        font-size: 0.8rem;
+        margin-top: 2rem;
+    }
+    .pj-img{
+        width: 23rem;
+        height: 12rem;
+    }
 }
