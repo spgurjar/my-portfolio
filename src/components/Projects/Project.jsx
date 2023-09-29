@@ -3,6 +3,7 @@ import "../TagCss/topTag.css";
 import {BsGrid3X2Gap} from "react-icons/bs";
 import pjimg1 from "./pjImg/project1.png";
 import pjimg2 from "./pjImg/project2.png";
+import pjimg3 from "./pjImg/project3.png";
 
 export const Project = () => {
     return(
@@ -37,6 +38,18 @@ export const Project = () => {
                 </a>
             </div>
            </div>
+
+           <div className="pj-body">
+            <div className="pj-abt">
+                <div className="pj-name">Weather Web App</div>
+                <div className="pj-dependencies"> HTML, CSS, AJAX, React </div>
+                <a href="https://spgurjar.github.io/weather-app/" target="blank">
+                    <button className="pj-view">View Project</button>
+                </a>
+            </div>
+            <img className="pj-img" src={pjimg3} alt="img" />
+           </div>
+
        </div> 
     )
 }
