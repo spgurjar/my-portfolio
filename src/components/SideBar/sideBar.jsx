@@ -42,10 +42,10 @@ export function SideBar () {
         <div className="side-bar-items">
             
             <div className="item-style"><a href="#thm" className="logos"><AiOutlineHome className="Slogo"/></a></div>
-            <div className="item-style"><a href="#jr" className="logos"><BsPerson className="Slogo"/></a></div>
+            {/* <div className="item-style"><a href="#jr" className="logos"><BsPerson className="Slogo"/></a></div> */}
             <div className="item-style"><a href="#re" className="logos"><AiOutlineFileText className="Slogo"/></a></div>
-            <div className="item-style"><a href="#sk"className="logos" ><TbIcons className="Slogo"/></a></div>
             <div className="item-style"><a href="#pr" className="logos"><BsGrid3X2Gap className="Slogo"/></a></div>
+            <div className="item-style"><a href="#sk"className="logos" ><TbIcons className="Slogo"/></a></div>
             <div className="item-style"><a href="#co" className="logos"><FiMail className="Slogo"/></a></div>
         </div>
     )
