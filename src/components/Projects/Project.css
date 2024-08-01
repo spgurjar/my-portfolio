@@ -2,28 +2,11 @@
     display: flex;
     flex-direction: column;
     margin-left: 1rem;
-    padding-top: 4rem;
-}
-@media screen and (max-width: 700px) {
-    .project-body{
-      position: relative;
-      align-items: center;
-      margin-left: 0;
-      padding-top: 2rem;
-    }
-    
-}
-  @media screen and (min-width: 701px) and (max-width: 1324px){
-    .project-body{
-      position: relative;
-      align-items: center;
-      margin-left: 0;
-    }
-       
 }
 
+
 .prjct-heading{
-    margin: 4rem 0 0 1rem;
+    margin: 2rem 0 0 1rem;
     padding-left: 0px;
     text-align: start; 
 }
@@ -85,39 +68,34 @@
     scale: 1.1;
     transition: all 1s ;
 }
-@media screen and (max-width: 700px) {
-    .pj-body{
-        width: 20rem;
-        height: 12rem;
-        text-align: center;
-        flex-direction: column;
-    }
-    .pj-img{
-        display: none;
-    }
-    .pj-abt{
-        width: 20rem;
-        
-    }
+
+
+@media screen and (max-width: 1486px){
     .pj-name{
-        margin-top: 30px;
-        font-size: 25px;
-        margin-left: 0;
-        text-align: center;
+        margin-top: 3rem;
+        font-size: 1.5rem;
     }
     .pj-dependencies{
-        font-size: 17px;
-        margin-left: 1rem;
-        text-align: center;
+        font-size: 1rem;
     }
     .pj-view{
-        padding: 5px;
-        font-size: 15px;
-        margin-top: 30px;
-        margin-left: 7rem;
-    }    
+        font-size: 0.8rem;
+        margin-top: 2rem;
+    }
+    .pj-img{
+        width: 23rem;
+        height: 12rem;
+    }
 }
-  @media screen and (min-width: 701px) and (max-width: 1324px){
+
+
+@media screen and (max-width: 1324px){
+    .project-body{
+        position: relative;
+        align-items: center;
+        margin-left: 0;
+        top: 8rem;
+      }
     .pj-img{
         width: 23rem;
         height: 12rem;
@@ -137,20 +115,42 @@
         margin-top: 2rem;
     }      
 }
-@media screen and (min-width: 1325px) and (max-width: 1486px){
-    .pj-name{
-        margin-top: 3rem;
-        font-size: 1.5rem;
-    }
-    .pj-dependencies{
-        font-size: 1rem;
-    }
-    .pj-view{
-        font-size: 0.8rem;
-        margin-top: 2rem;
+
+@media screen and (max-width: 700px) {
+    .project-body{
+        position: relative;
+        align-items: center;
+        margin-left: 0;
+        top: 3rem;
+      }
+    .pj-body{
+        width: 20rem;
+        height: 12rem;
+        text-align: center;
+        flex-direction: column;
     }
     .pj-img{
-        width: 23rem;
-        height: 12rem;
+        display: none;
     }
+    .pj-abt{
+        /* width: 20rem; */
+        
+    }
+    .pj-name{
+        margin-top: 30px;
+        font-size: 25px;
+        margin-left: 0;
+        text-align: center;
+    }
+    .pj-dependencies{
+        font-size: 17px;
+        margin-left: 1rem;
+        text-align: center;
+    }
+    .pj-view{
+        padding: 5px;
+        font-size: 15px;
+        margin-top: 30px;
+        margin-left: 7rem;
+    }    
 }

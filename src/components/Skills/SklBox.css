@@ -1,57 +1,55 @@
 .skl-box-body{
     display: flex;
     flex-direction: column;
+    align-items: center;
+    justify-content: center;
 }
 
 .box-logo{
     color: white;
-    border: 1px solid hsl(60, 1%, 63%);
-    border-radius: 3rem;
-    height: 8.5rem;
-    width: 6.5rem;
+    /* border: 1px solid hsl(60, 1%, 63%); */
+    /* border-radius: 3rem; */
+    cursor: pointer;
 }
 .box-logo:hover{
-    border: 2px solid #28e98c  ;
+    color: #28e98c  ;
 }
 .bx-logo{
-    margin-top: 2.7rem;
     font-size: 50px;
 }
 .box-name{
     color: white;
-    margin-top: 20px;
+    margin-top: 10px;
     font-family: 'Signika Negative', sans-serif;
 }
-@media screen and (max-width: 700px) {
-    .skl-box-body{
-        margin-top: 2rem;
-    }
-    .box-name{
-        font-size: 20px ;
-    }
-    .box-logo{
-        height: 7.5rem;
-        width: 5.5rem;
-    }
-    .bx-logo{
-        margin-top: 2.2rem;
-        font-size: 45px;
-    }
-  }
-@media screen and (min-width: 701px) and (max-width: 1324px){
+
+@media screen and  (max-width: 1324px){
     .skl-box-body{
         margin-top: 2rem;
         
     }
     .box-name{
-        font-size: 30px ;
-    }
-    .box-logo{
-        height: 6.5rem;
-        width: 11.5rem;
+        font-size: 18px ;
     }
     .bx-logo{
-        margin-top: 1.5rem;
         font-size: 55px;
     }
 }
+
+@media screen and (max-width: 700px) {
+    .skl-box-body{
+        margin: 1rem 12px 0 12px;
+
+    }
+    .box-name{
+        font-size: 14px ;
+    }
+    /* .box-logo{
+        height: 7.5rem;
+        width: 5.5rem;
+    } */
+    .bx-logo{
+        margin-top: 12px;
+        font-size: 40px;
+    }
+  }

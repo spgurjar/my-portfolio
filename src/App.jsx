@@ -75,12 +75,12 @@ import ReactGA from 'react-ga4';
 function App() {
   const [loading, setLoading] = useState(false);
 
-  useEffect(() => {
-    setLoading(true);
-    setTimeout(() => {
-      setLoading(false);
-    }, 7000);
-  }, []);
+  // useEffect(() => {
+  //   setLoading(true);
+  //   setTimeout(() => {
+  //     setLoading(false);
+  //   }, 7000);
+  // }, []);
 
   useEffect(() => {
     ReactGA.initialize(process.env.REACT_APP_GA_MEASUREMENT_ID);
@@ -97,9 +97,9 @@ function App() {
           <div><About /></div>
           <div className="main-content">
             <div className='cls-tophome'><TopHome /></div>
-            <div className='cls-'><Journey /></div>
-            <div className='cls-'><Project /></div>
+            {/* <div className='cls-'><Journey /></div> */}
             <div className='cls-'><Resume /></div>
+            <div className='cls-'><Project /></div>
             <div className='cls-'><Skills /></div>
             <div className='cls-'><Contact /></div>
           </div>

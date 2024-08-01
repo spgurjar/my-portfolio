@@ -1,26 +1,116 @@
 .box-body{
     
-    padding: 1.5rem 3.5rem 0px;
+    padding: 1.5rem 0 1.5rem 2rem;
     display: flex;
     flex-direction: column;
     text-align: start;
-    margin-left: 3rem;
+    margin-left: 1rem;
     border-left: 1px solid hsl(60, 1%, 63%) ;
     border-radius: 20px;
 }
 
-     
-  
+.role-box{
+    padding: 10px 8px;
+    background-color: rgba(102, 102, 95, 0.351);
+    border-radius: 8px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    color: hsl(0, 0%, 100%);
+    font-size: 16px;
+    font-family: 'Signika Negative', sans-serif;
+} 
+
+.details-box{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 15px 5px 15px 12px;
+    background-color: rgba(102, 102, 95, 0.351);
+    border-radius: 8px;
+    margin-top: 10px;
+    font-family: 'Signika Negative', sans-serif;
+    font-weight: 500;
+    color: rgb(255, 255, 255);
+}
+
+.left-box{
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    justify-content: center;
+    /* width: 90%; */
+}
+.location-box{
+    display: flex;
+    align-items: start;
+    justify-content: space-between;
+    font-family: 'Signika Negative', sans-serif;
+    font-weight: 500;
+    color: rgb(255, 255, 255);
+    font-size: 14px;
+}
+.locIcon{
+    font-size: 13px;
+}
+.locIcon2{
+    font-size: 13px;
+    margin-left: 15px;
+}
+ .description-box{
+    display: flex;
+    margin-top: 10px;
+    font-size: 15px;
+ } 
+ .skills-box{
+    display: flex;
+    align-items: start;
+    justify-content: space-between;
+    margin-top: 14px;
+ }
+ .skill{
+    margin-right: 10px;
+    padding: 2px 8px;
+    background-color: #28e98c;
+    border-radius: 3rem;
+    font-size: 14px;
+    color: rgb(0, 0, 0);
+ }
+ 
+ .right-box{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+    /* background-color: white; */
+    padding: 2rem 1rem;
+    border-radius: 50%;
+    color: #28e98c;
+    text-decoration: underline;
+    font-size: 12px;
+    font-family: 'Signika Negative', sans-serif;
+    width: 25%;
+    cursor: pointer;
+    text-align: center;
+ }
+ .company-logo-box{
+    display: flex;
+    justify-content: center;
+    
+ }
+ .company-logo{
+    width: 5rem;
+    margin-bottom: 5px; 
+ }
+
 .box-body:hover{
-    border-left: 2px solid #28e98c  
+    border-left: 2px solid #28e98c;  
 }
 .duration{
-    color: hsl(60, 1%, 63%);
-    font-size: 18px;
+    color: hsl(0, 0%, 100%);
+    font-size: 16px;
     font-family: 'Signika Negative', sans-serif;
-}
-.duration:hover{
-        color: #28e98c;
 }
 
 .role{
@@ -35,44 +125,30 @@
     margin-top: 8px;
     font-family: 'Signika Negative', sans-serif;
 }
-@media screen and (max-width: 700px) {
+
+  @media screen and (max-width: 1324px){
     .box-body{
-      position: relative;
-      align-items: center;
-      margin-left: 0;
-      padding: 0;
-      width: 19rem;
-      border-left: none ;
-      border-bottom: 1px solid hsl(60, 1%, 63%) ;
-      border-top: 1px solid hsl(60, 1%, 63%) ;
-      border-radius: 20px;
-    }
-    .duration{
-        margin-top: 15px;
-        font-size: 17px;
-    }
-    .role{
-        font-size: 25px;
-    }
-    
-  }
-  @media screen and (min-width: 701px) and (max-width: 1324px){
-    .box-body{
-        position: relative;
+        /* position: relative; */
         align-items: center;
         margin-left: 0;
         padding: 0;
-        width: 25rem;
+        /* width: 25rem; */
         border-left: none ;
         border-bottom: 1px solid hsl(60, 1%, 63%) ;
         border-top: 1px solid hsl(60, 1%, 63%) ;
         border-radius: 20px;
         padding: 1rem;
       }
-      .duration{
+      .role-box{
+        width: 80vw;
+      }
+      .details-box{
+        width: 80vw;
+      }
+      /* .duration{
           margin-top: 15px;
           font-size: 25px;
-      }
+      } */
       .role{
           font-size: 37px;
       }
@@ -80,4 +156,31 @@
         font-size: 20px;
         margin-top: 1rem;
       }
+}
+
+@media screen and (max-width: 700px) {
+    .box-body{
+      position: relative;
+      align-items: center;
+      margin-left: 0;
+      padding: 1rem;
+      /* width: 19rem; */
+      border-left: none ;
+      border-bottom: 1px solid hsl(60, 1%, 63%) ;
+      border-top: 1px solid hsl(60, 1%, 63%) ;
+      border-radius: 20px;
+    }
+
+  
+    .details-box{
+        flex-direction: column;
+    } 
+}
+@media screen and (max-width: 550px){
+    .skills-box{
+        flex-wrap: wrap;
+    }
+    .skill{
+        margin-top: 10px;
+    }
 }

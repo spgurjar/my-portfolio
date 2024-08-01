@@ -6,7 +6,7 @@
 }
 
 .cnct-heading{
-    margin: 4rem 0 0 1rem;
+    margin: 2rem 0 0 1rem;
     padding-left: 0px;
     text-align: start; 
 }
@@ -34,6 +34,7 @@
     font-size: 18px;
     background:transparent;
     font-family: 'Signika Negative', sans-serif;
+    outline: none;
 }
 .ul-input{
     text-align: start;
@@ -63,37 +64,14 @@
 .emoji{
     font-size: 10px;
 }
-@media screen and (max-width: 700px) {
+
+@media screen and (max-width: 1324px){
     .contact-body{
         position: relative;
         align-items: center;
         margin-left: 0;
         padding-top: 2rem;
-      }
-    .input-contact{
-        margin-left: 0;
-        flex-direction: column;
-        width: 10rem;
-    }
-    .Send{
-        margin-bottom: 40px;
-        font-size: 18px;
-        margin-top: 5px;
-    }
-    
-    .emoji{
-        font-size: 15px;
-    }
-    .fn{
-        font-size: 20px;
-    }
-}
-@media screen and (min-width: 701px) and (max-width: 1324px){
-    .contact-body{
-        position: relative;
-        align-items: center;
-        margin-left: 0;
-        padding-top: 2rem;
+        top: 12rem;
       }
     .input-contact{
         margin-left: 0;
@@ -109,4 +87,34 @@
     .fn{
         font-size: 20px;
     } 
+}
+
+@media screen and (max-width: 700px) {
+    .contact-body{
+        position: relative;
+        align-items: center;
+        margin-left: 0;
+        padding-top: 2rem;
+        top: 3rem;
+      }
+    .input-contact{
+        margin-left: 0;
+        flex-direction: column;
+        width: 70vw;
+    }
+    .inpt{
+        width: 100%;
+    }
+    .Send{
+        margin-bottom: 40px;
+        font-size: 18px;
+        margin-top: 5px;
+    }
+    
+    .emoji{
+        font-size: 15px;
+    }
+    .fn{
+        font-size: 20px;
+    }
 }
