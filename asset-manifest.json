@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/my-portfolio/static/css/main.764c7fd5.css",
-    "main.js": "/my-portfolio/static/js/main.a9cda79e.js",
+    "main.js": "/my-portfolio/static/js/main.cfe2afa3.js",
     "static/media/frogTap.png": "/my-portfolio/static/media/frogTap.0fcb5ff5025050086709.png",
     "static/media/project1.png": "/my-portfolio/static/media/project1.85d2b14a9b21fa993d3c.png",
     "static/media/project3.png": "/my-portfolio/static/media/project3.d95b4c8a37cac19b5388.png",
@@ -9,12 +9,13 @@
     "static/media/ppic.jpg": "/my-portfolio/static/media/ppic.3150323b02633ed8bd08.jpg",
     "static/media/FarmerSon.png": "/my-portfolio/static/media/FarmerSon.6e70a047775d559c0f36.png",
     "static/media/rrLogo.png": "/my-portfolio/static/media/rrLogo.c1e7256ab4fda3e1096b.png",
+    "static/media/headstarter.avif": "/my-portfolio/static/media/headstarter.b25505b29b0761983834.avif",
     "index.html": "/my-portfolio/index.html",
     "main.764c7fd5.css.map": "/my-portfolio/static/css/main.764c7fd5.css.map",
-    "main.a9cda79e.js.map": "/my-portfolio/static/js/main.a9cda79e.js.map"
+    "main.cfe2afa3.js.map": "/my-portfolio/static/js/main.cfe2afa3.js.map"
   },
   "entrypoints": [
     "static/css/main.764c7fd5.css",
-    "static/js/main.a9cda79e.js"
+    "static/js/main.cfe2afa3.js"
   ]
 }
