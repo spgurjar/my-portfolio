@@ -6,6 +6,7 @@ import probzLogo from "./images/probzLogo.png"
 import frogbar from "./images/frogTap.png";
 import rrlogo from "./images/rrLogo.png";
 import farmerson from "./images/FarmerSon.png"
+import headstarter from "./images/headstarter.avif"
 
 export const Resume = () => {
     return (
@@ -47,6 +48,21 @@ export const Resume = () => {
                  clogo={frogbar}
                  projectName= "FrogBar Game"
                  projectLink="https://t.me/pepefrogbar_bot/pepefrogbar?startapp=BCjqsBSg1K489NQW0uP_f"
+             />   
+            </div>
+            <div className="rsmBox-content">
+             <RsmBox 
+                 myRole="SWE Fellow"
+                 roleAt="HeadstarterAI"
+                 duration="July 2024 - Sept 2024"
+                 location="Remote"
+                 websiteName="headstarter.co"
+                 weblink="https://headstarter.co/"
+                 description="Developing 5+ AI apps and APIs using NextJS, OpenAI, Pinecone, and StripeAPI with a target accuracy of 98%, as observed by 1,000 users."
+                 skills={['JavaScript', 'React',"CSS", 'Next.js', "Python", "Node.js"]}
+                 clogo={headstarter}
+                 projectName= "HeadstarterAI"
+                 projectLink="https://headstarter.co/"
              />   
             </div>
             <div className="rsmBox-content">

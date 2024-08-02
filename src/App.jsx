@@ -97,7 +97,6 @@ function App() {
           <div><About /></div>
           <div className="main-content">
             <div className='cls-tophome'><TopHome /></div>
-            {/* <div className='cls-'><Journey /></div> */}
             <div className='cls-'><Resume /></div>
             <div className='cls-'><Project /></div>
             <div className='cls-'><Skills /></div>
