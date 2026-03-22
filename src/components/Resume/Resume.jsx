@@ -1,88 +1,87 @@
 import "../TagCss/topTag.css";
 import "./Resume.css";
-import {AiOutlineFileText} from "react-icons/ai";
+import { AiOutlineFileText } from "react-icons/ai";
 import { RsmBox } from "./RsmBox";
-import probzLogo from "./images/probzLogo.png"
-import frogbar from "./images/frogTap.png";
 import rrlogo from "./images/rrLogo.png";
-import farmerson from "./images/FarmerSon.png"
-import headstarter from "./images/headstarter.avif"
+import souledStore from "./images/souled store.png";
+import trustyMoney from "./images/trusty money.png";
+import wavez from "./images/wavez.png";
 
 export const Resume = () => {
     return (
         <div id="re" className="resume-body">
-          <div className="top-tag">
-            <button className="tag-btn">
-            <AiOutlineFileText className="tag-logo"/>
-           <span className="tag-text">EXPERIENCE</span> 
-           </button>
-           </div>
-           <div className="rsm-heading">
-            <span className="heading-text1">My <span className="heading-text2">Experience</span></span>
+            <div className="top-tag">
+                <button className="tag-btn">
+                    <AiOutlineFileText className="tag-logo" />
+                    <span className="tag-text">EXPERIENCE</span>
+                </button>
+            </div>
+            <div className="rsm-heading">
+                <span className="heading-text1">My <span className="heading-text2">Experience</span></span>
             </div>
             <div className="rsmBox-content">
-            <RsmBox 
-                 myRole="Software Engineer Intern"
-                 roleAt="RareReach"
-                 duration="May 2024 - July 2024"
-                 location="Remote"
-                 weblink="https://rarereach.com/"
-                 websiteName="rarereach.com"
-                 description="Developed the complete web solution(B2C) from scratch using the best frontend and backend technologies, and implemented Google Analytics for user tracking"
-                 skills={['React','Vite','CSS3','Django', 'SQLite','Google Analytics', ]}
-                 clogo={rrlogo}
-                 projectName= "RareReach Waitlist"
-                 projectLink="https://rarereach.com/"
-             />  
+                <RsmBox
+                    myRole="Associate Software Developer Engineer"
+                    roleAt="The Souled Store"
+                    duration="July 2025 - Present"
+                    location="Pune"
+                    weblink="https://www.thesouledstore.com/"
+                    websiteName="thesouledstore.com"
+                    description="Optimized infinite scroll with asynchronous IndexedDB, reducing DB calls by 99% and resolving critical memory leaks. Fixed dual order issues in the POS service."
+                    skills={['React', 'IndexedDB', 'Performance Optimization', 'JavaScript']}
+                    clogo={souledStore}
+                    projectName="The Souled Store"
+                    projectLink="https://www.thesouledstore.com/"
+                />
             </div>
             <div className="rsmBox-content">
-             <RsmBox 
-                 myRole="Frontend Developer Intern"
-                 roleAt="Kreative Tech"
-                 duration="June 2024 - July 2024"
-                 location="Remote"
-                 websiteName="kreativetech.in"
-                 weblink="https://kreativetech.in/"
-                 description="Developed the frontend for version 2 of the PEPE Frogbar game, anticipated to serve 400,000 users."
-                 skills={['JavaScript', 'React',"CSS", 'AJAX', "Redux", "Chakra UI"]}
-                 clogo={frogbar}
-                 projectName= "FrogBar Game"
-                 projectLink="https://t.me/pepefrogbar_bot/pepefrogbar?startapp=BCjqsBSg1K489NQW0uP_f"
-             />   
+                <RsmBox
+                    myRole="Software Developer Intern"
+                    roleAt="Trusty Money"
+                    duration="Sept 2024 - Feb 2025"
+                    location="Remote"
+                    websiteName="trustymoney.in"
+                    weblink="https://www.trustymoney.in/"
+                    description="Developed secure transaction pipelines and dynamic dashboards. Implemented a tokenized payment gateway with PCI DSS-level security, boosting performance by 70%."
+                    skills={['React', 'Security', 'API Integration', 'Dashboards']}
+                    clogo={trustyMoney}
+                    projectName="Trusty Money"
+                    projectLink="https://www.trustymoney.in/"
+                />
             </div>
             <div className="rsmBox-content">
-             <RsmBox 
-                 myRole="SWE Fellow"
-                 roleAt="HeadstarterAI"
-                 duration="July 2024 - Sept 2024"
-                 location="Remote"
-                 websiteName="headstarter.co"
-                 weblink="https://headstarter.co/"
-                 description="Developing 5+ AI apps and APIs using NextJS, OpenAI, Pinecone, and StripeAPI with a target accuracy of 98%, as observed by 1,000 users."
-                 skills={['JavaScript', 'React',"CSS", 'Next.js', "Python", "Node.js"]}
-                 clogo={headstarter}
-                 projectName= "HeadstarterAI"
-                 projectLink="https://headstarter.co/"
-             />   
+                <RsmBox
+                    myRole="Fullstack Developer Freelancer"
+                    roleAt="WavezGoa"
+                    duration="Jan 2025 - Feb 2025"
+                    location="Remote"
+                    websiteName="gowaterz.com"
+                    weblink="https://www.gowaterz.com/"
+                    description="Built a multi-role web platform with real-time booking, earnings tracking, and OTA/GDS API integration. Developed a comprehensive Node.js and PostgreSQL backend supporting dynamic pricing."
+                    skills={['React', 'TypeScript', 'Node.js', 'PostgreSQL', 'Redux']}
+                    clogo={wavez}
+                    projectName="WavezGoa"
+                    projectLink="https://www.gowaterz.com/"
+                />
             </div>
             <div className="rsmBox-content">
-            <RsmBox 
-                 myRole="Frontend Engineer Intern"
-                 roleAt="Credwise"
-                 duration="Dec 2023 - Jan 2024"
-                 location="Remote"
-                 weblink="https://www.linkedin.com/company/credwiseclub/"
-                 websiteName="credwise.co.in"
-                 description="Developed front-end solutions(B2B) Probz in Fin Tech on Next.js framework."
-                 clogo={probzLogo}
-                 skills={['JavaScript', 'Next.js', 'CSS3', 'Figma']}
-                 projectName= "Probz"
-                 projectLink="https://probz.in/"
-             /> 
-            </div> 
-            <a href="https://drive.google.com/file/d/1IHYvTAtbPWFRkJ_k8aX596pTlyyNnPNf/view?usp=sharing" target="blank">
-                    <button className="rs-view">View Resume</button>
-                </a>
+                <RsmBox
+                    myRole="Software Engineer Intern"
+                    roleAt="RareReach"
+                    duration="May 2024 - July 2024"
+                    location="Remote"
+                    weblink="https://rarereach.com/"
+                    websiteName="rarereach.com"
+                    description="Led B2C platform web development, achieving 30% faster build times using Vite. Built a robust Django backend and integrated Google Analytics."
+                    skills={['React', 'Vite', 'Django', 'SQLite', 'Google Analytics']}
+                    clogo={rrlogo}
+                    projectName="RareReach Waitlist"
+                    projectLink="https://rarereach.com/"
+                />
+            </div>
+            <a href="https://drive.google.com/file/d/1Kwv8QWGkvKL0AAHC5wWOT36RfD3bGn-v/view?usp=sharing" target="blank">
+                <button className="rs-view">View Resume</button>
+            </a>
         </div>
     )
 }
