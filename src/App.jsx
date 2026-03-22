@@ -83,8 +83,10 @@ function App() {
   // }, []);
 
   useEffect(() => {
-    ReactGA.initialize(process.env.REACT_APP_GA_MEASUREMENT_ID);
-    ReactGA.send('pageview');
+    if (process.env.REACT_APP_GA_MEASUREMENT_ID) {
+      ReactGA.initialize(process.env.REACT_APP_GA_MEASUREMENT_ID);
+      ReactGA.send('pageview');
+    }
   }, []);
 
   return (
